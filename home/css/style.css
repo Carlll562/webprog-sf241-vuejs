@@ -115,7 +115,7 @@ body {
       flex-wrap: wrap;
       justify-content: space-around;
     }
-img {
+.imgs {
       width: 70px;
       margin: 10px;
     }
