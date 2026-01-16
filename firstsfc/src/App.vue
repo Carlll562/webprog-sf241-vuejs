@@ -5,7 +5,6 @@ App.vue
   <food-item/>
   <food-item/>
   <food-item/>
-  <food-item/>
 </template>
  
 <script></script>
