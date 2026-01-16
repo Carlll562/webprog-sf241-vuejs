@@ -1,20 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My first Vue page</title>
-  <link rel = "stylesheet" href = "css/style.css">
+<link rel="stylesheet" href="cstyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEBPROG IT242 Introduction</title>
 </head>
-<body>
+<body style="background-color: #DFE6DA">
+ <div class="grid-container">
 
-<h1>Vue Example</h1>
+<div class="header"><h1>Personal Profile Webpage</h1></div>
 
-<p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
+<div class="menu">
+  <ul>
+    <li>The Flight</li>
+    <li>The City</li>
+    <li>The Island</li>
+    <li>The Food</li>
+  </ul>
+</div>
+
+<div class="content">
+  <h1>About Me</h1>
+  <p>Hi there! I am Carl Dheyniel G. Genova, I am pursuing a degree in computer science.</p>
+  <p>Currently a second year at Asia Pacific College.</p>
+  <p><b>IT Experience<br></b>
+     -Linux Basics<br>
+     -Github Basics<br>
+     -Python and Java Fundamentals<br><br>
+
+     <b>Hobbies & Interests</b><br>
+     Gaming in genres like FPS, roguelike/lite, fighting games.<br><br>
+ 
+     <b>Goals In Life / Dream<br></b>
+     Become independent</p>
+</div>
+
+<div class="facts">
+  <h2>The Tungsten Cube</h2>
+  <img src="deepfried_1763450978813.jpg" alt="Tungsten" width="400" height="350">
+  <ul>
+    <li>Very Hard</li>
+    <li>Also Brittle</li>
+  </ul>
+</div>
+
+<div class="footer">
+<p>Nothing to see here(?)
+<br><b>Vue Example</b>
+<br>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
 
 <div id="app">
   {{ message }}
 </div>
 
+</div>
+</div>
+ 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="js/vue.js"></script>
+<script src="view.js"></script>
 </body>
 </html>
