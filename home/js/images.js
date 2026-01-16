@@ -14,4 +14,4 @@
    }
   })
 
-  app.mount('#apps ')
+  apps.mount('#apps')
