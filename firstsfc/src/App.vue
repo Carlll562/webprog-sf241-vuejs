@@ -1,10 +1,9 @@
 App.vue
  
 <template>
-  <h1>Junk Food</h1>
+  <h1>Junk Food and Fischda</h1>
   <food-item/>
-  <food-item/>
-  <food-item/>
+  <food-item2/>
 </template>
  
 <script></script>
@@ -13,12 +12,6 @@ App.vue
  
  
 <style>
- #app > div {
-    border: dashed black 1px;
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    background-color: lightgreen;
-  }
+
 </style>
  
